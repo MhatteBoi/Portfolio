@@ -18,9 +18,9 @@ export default function Home() {
         <Image
       src="https://res.cloudinary.com/dm3vmtten/image/upload/v1737031867/Pngtree_simple_black_abstract_symmetrical_technology_7180929_ubabzr.png"
       alt="Tech Stack Background"
-      width={900}
-      height={1200}
-      className="absolute -z-10 rounded-full -top-[950] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto hidden md:block"
+      layout="fill"
+      objectFit="cover"
+      className="absolute -z-10 rounded-full transform -translate-y-1/2 mx-auto w-full max-w-[770px] h-auto hidden md:block"
     />
         <Projects />
         
