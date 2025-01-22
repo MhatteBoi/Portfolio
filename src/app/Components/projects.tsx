@@ -41,7 +41,7 @@ const projects = [
     description: "My first portfolio i made in TUC School, made in HTML/CSS/JS. Where other projects are shown as well. It's in Swedish due to school being in Sweden ",
     image: "https://res.cloudinary.com/dm3vmtten/image/upload/v1737212811/PortFirst_ulscdh.png",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://portfolio-mhattias-roswalls-projects.vercel.app/oldportfolio/page.html" // changes when its live,
+    link: "/oldportfolio/page.HTML" // changes when its live,
   },
 ]
 
