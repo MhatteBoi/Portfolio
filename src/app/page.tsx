@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen overflow-y-hidden relative">
       <Navbar />
       
       
@@ -20,7 +20,7 @@ export default function Home() {
       alt="Tech Stack Background"
       width={900}
       height={1200}
-      className="absolute -z-10 rounded-full -top-[550] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto"
+      className="absolute -z-10 rounded-full -top-[550] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto hidden md:block"
     />
         <Projects />
         
