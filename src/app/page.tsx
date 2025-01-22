@@ -20,7 +20,7 @@ export default function Home() {
       alt="Tech Stack Background"
       width={900}
       height={1200}
-      className="absolute -z-10 rounded-full -top-[550] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto hidden md:block"
+      className="absolute -z-10 rounded-full -top-[950] left-1/2 transform -translate-x-1/2 w-full max-w-[900px] h-auto hidden md:block"
     />
         <Projects />
         
