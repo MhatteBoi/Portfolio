@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-8 opacity-90">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0 flex items-center">
+          <div className="mb-4 md:mb-0 flex flex-col md:flex-row items-center">
             <img src="https://res.cloudinary.com/dm3vmtten/image/upload/v1737036035/signature2White1_hzioqv.png" alt="logo" className='max-w-[150] h-auto' />
             <p className="text-sm">&copy; 2025 Mhattias Roswall. All rights reserved.</p>
           </div>

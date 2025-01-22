@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="min-h-screen overflow-y-hidden relative">
+    <div className="min-h-screen overflow-x-hidden relative">
       <Navbar />
       
       
