@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "SwapNet (internship project: Active)",
-    description: "An app where you trade item for another item, and get ai generated prices to help get the value for your item, using Firebase Cloud functions. A real app going live soon!",
+    description: "An item trading platform with AI valuation using Firebase Cloud Functions. A real app going live soon!",
     image: "https://res.cloudinary.com/dm3vmtten/image/upload/v1737291120/Untitled_x3voax.png",
     technologies: ["NextJs", "React", "Firebase", "ShadCn"],
   },
