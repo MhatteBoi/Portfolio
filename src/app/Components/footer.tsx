@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Github, Linkedin, Mail, XIcon } from 'lucide-react'
+import Image from 'next/image'
 
 export function Footer() {
   return (
@@ -7,7 +8,13 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0 flex flex-col md:flex-row items-center">
-            <img src="https://res.cloudinary.com/dm3vmtten/image/upload/v1737036035/signature2White1_hzioqv.png" alt="logo" className='max-w-[150] h-auto' />
+            <Image
+  src="https://res.cloudinary.com/dm3vmtten/image/upload/v1737036035/signature2White1_hzioqv.png"
+  alt="logo"
+  width={150} // Specify the width
+  height={0}  // Use height=0 to allow `h-auto` styling
+  className="h-auto"
+/>
             <p className="text-sm">&copy; 2025 Mhattias Roswall. All rights reserved.</p>
           </div>
           <nav className="flex space-x-4">

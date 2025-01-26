@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Linkedin,  Github, XIcon } from 'lucide-react'
+import Image from 'next/image'
 
 export function Navbar() {
   return (
@@ -8,7 +9,13 @@ export function Navbar() {
         <div className="flex items-center justify-start md:justify-evenly h-20">
           <div className="flex items-center justify-center">
            <a href="#">
-          <img src='https://res.cloudinary.com/dm3vmtten/image/upload/v1737036035/signature2White1_hzioqv.png' className='max-w-[160px]' alt='logo'></img>
+                      <Image
+            src="https://res.cloudinary.com/dm3vmtten/image/upload/v1737036035/signature2White1_hzioqv.png"
+            alt="logo"
+            width={150} // Specify the width
+            height={0}  // Use height=0 to allow `h-auto` styling
+            className="h-auto"
+          />
           </a>
           </div>
           
