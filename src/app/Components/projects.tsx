@@ -50,7 +50,7 @@ export function Projects() {
     
     <section id="projects" className="py-20 px-10 md:px-0 ">
       <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center text-white mb-12">My Projects</h2>
+        <h2 className="text-4xl font-bold text-center text-white mb-12">My projects</h2>
         <div className="shadow-[0px_0px_65px_15px_rgba(4,165,205,0.2)] -z-10"></div>
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -78,7 +78,7 @@ export function Projects() {
             </Card>
           ))}
         </div>
-        <p className="mt-5">Dont Forget to check my <a href="https://github.com/MhatteBoi" className="text-teal-500 hover:underline">Github!</a></p>
+        <p className="mt-5">Dont forget to check my <a href="https://github.com/MhatteBoi" className="text-teal-500 hover:underline">Github!</a></p>
       </div>
       
     </section>

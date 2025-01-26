@@ -35,10 +35,10 @@ export default function AboutMe() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
-            About Me
+            About me
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A passionate full-stack developer who loves turning ideas into reality through elegant code and creative solutions.
+          When I&apos;m not working on your big project, I&apos;m doing my best to prepare for your next one.
           </p>
         </motion.div>
 
@@ -56,22 +56,22 @@ export default function AboutMe() {
           >
             <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-purple-500/60 hover:shadow-[0px_0px_34px_0px_rgba(236,0,240,0.8)] duration-200 transition-all">
               <Terminal className="w-8 h-8 text-purple-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Tech Enthusiast</h3>
+              <h3 className="text-xl font-semibold mb-2">Tech enthusiast</h3>
               <p className="text-gray-400">
-              Skilled in React, Next.js, .NET, Angular, and Blazor. Open to learning Svelte, MongoDB, Docker, and more.
+              Skilled in React, Next.js, .NET, Angular, SQL, Firebase and Blazor. Currently learning Svelte, MongoDB, Docker, and more.
               </p>
             </div>
 
             <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-purple-500/60 hover:shadow-[0px_0px_34px_0px_rgba(236,0,240,0.8)] duration-200 transition-all">
               <Code2 className="w-8 h-8 text-purple-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Problem Solver</h3>
+              <h3 className="text-xl font-semibold mb-2">Problem solver</h3>
               <p className="text-gray-400">
-                Love tackling complex challenges and finding elegant solutions through creative thinking and being stubborn.
+                Love tackling complex challenges and finding elegant solutions through creative thinking, and being stubborn.
               </p>
             </div>
           </motion.div>
 
-          {/* Right Column - More Info Cards */}
+          {/* Right Column - More Info Cards, Copy if you need more */}
           <motion.div 
             ref={rightColumnRef}
             style={{
@@ -83,7 +83,7 @@ export default function AboutMe() {
           >
             <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-purple-500/60 hover:shadow-[0px_0px_34px_0px_rgba(236,0,240,0.8)] duration-200 transition-all">
               <Rocket className="w-8 h-8 text-purple-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Always Learning</h3>
+              <h3 className="text-xl font-semibold mb-2">Always learning</h3>
               <p className="text-gray-400">
                 Constantly expanding my knowledge through personal projects, online courses, and industry best practices.
               </p>
@@ -91,9 +91,9 @@ export default function AboutMe() {
 
             <div className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-purple-500/60 hover:shadow-[0px_0px_34px_0px_rgba(236,0,240,0.8)] duration-200 transition-all">
               <Coffee className="w-8 h-8 text-purple-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Team Player</h3>
+              <h3 className="text-xl font-semibold mb-2">Team player</h3>
               <p className="text-gray-400">
-                Experienced in collaborative development, version control, and agile methodologies. Coffee enthusiast, preferably espresso.
+                Experienced in collaborative development, version control, agile methodologies, coffee enthusiast, preferably espresso.
               </p>
             </div>
           </motion.div>
@@ -111,7 +111,7 @@ export default function AboutMe() {
         >
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-emerald-800 border transition-all ">
             <div className="text-3xl font-bold text-purple-400  ">2+</div>
-            <div className="text-gray-400 ">Years Experience</div>
+            <div className="text-gray-400 ">Years experience</div>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-yellow-800 border transition-all">
             <div className="text-3xl font-bold text-purple-400">25+</div>
@@ -123,7 +123,7 @@ export default function AboutMe() {
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-blue-800 border transition-all">
             <div className="text-3xl font-bold text-purple-400">∞</div>
-            <div className="text-gray-400">Coffee Cups</div>
+            <div className="text-gray-400">Coffee cups</div>
           </div>
         </motion.div>
 
@@ -138,7 +138,7 @@ export default function AboutMe() {
           className="text-center mt-16"
         >
           <p className="text-gray-400 flex items-center justify-center gap-2">
-            Made with <Heart className="w-4 h-4 text-pink-500" /> and lots of coffee, (Espresso) 
+            Made with <Heart className="w-4 h-4 text-pink-500" /> and lots of coffee (espresso) 
           </p>
         </motion.div>
       </div>

@@ -12,19 +12,19 @@ export default function ChatBubble() {
         transition={{ delay: 4, duration: 0.8 }}
         className="relative max-w-md"
       >
-        <div className="absolute top-[52px] left-[433px] hidden lg:block w-6 h-6 bg-gradient-to-br from-indigo-700 to-purple-900 transform rotate-45" />
+        <div className="absolute top-[52px] left-[433px] hidden lg:block w-8 h-8 bg-gradient-to-br from-indigo-500 to-purple-200 transform rotate-45" />
         <div className="relative bg-gradient-to-br from-purple-600 to-indigo-900 text-white p-6 rounded-3xl shadow-xl">
           <div className="flex items-center gap-2 mb-2">
             <Code2 className="w-5 h-5" />
-            <span className="font-semibold">Tech Stack & Beyond</span>
+            <span className="font-semibold">Tech stack & beyond</span>
           </div>
           <p className="mb-4">
-            This is just my main tech-stack
+          Here&apos;s my main tech stack
           </p>
 
           <div className="mt-3 text-purple-200 text-sm">
             Always excited to explore new technologies and jump right in to new frameworks! 🚀 <br></br>
-            <small>press the screen if you want more particles!</small>
+            <small>By the way... press the screen if you want more particles!</small>
           </div>
         </div>
       </motion.div>

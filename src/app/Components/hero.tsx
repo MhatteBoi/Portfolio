@@ -5,7 +5,7 @@ import { FloatingTechStack } from "./floating-tech-stack"
 import ChatBubble from "./chat-bubble";
 
 export function Hero() {
-  const words = useMemo(() => ["the best", "Fast", "Fun", "Cool"], []); // Words to display
+  const words = useMemo(() => ["the best", "a fast", "a fun", "a cool"], []); // Words to display
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState(""); // Text being typed
   const [isDeleting, setIsDeleting] = useState(false); // Whether we're deleting the text
@@ -51,7 +51,7 @@ export function Hero() {
           <div className="space-y-4  text-center md:text-left translate-y-32 md:translate-y-0">
             <div className="inline-block rounded-full px-4  py-1.5 bg-gray-800 bg-opacity-50 backdrop-blur-sm">
               <span className="text-sm  text-gray-300">
-                Mhattias Roswall - Fullstack Developer
+                Mhattias Roswall - Fullstack developer
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-6xl text-nowrap font-bold">
@@ -64,8 +64,7 @@ export function Hero() {
               <span className="text-white">project experience</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-xl">
-              Im a Fullstack Software Engineer with experience in App, Website,
-              and Software development. I love creating so check out my projects below.
+            I&apos;m a fullstack software engineer with experience in app, website, and software development. I love creating, so check out my projects below!
             </p>
             <ChatBubble />
           </div>
