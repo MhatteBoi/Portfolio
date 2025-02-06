@@ -110,7 +110,7 @@ export default function AboutMe() {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 text-center"
         >
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-emerald-800 border transition-all ">
-            <div className="text-3xl font-bold text-purple-400  ">2+</div>
+            <div className="text-3xl font-bold text-purple-400  ">3+</div>
             <div className="text-gray-400 ">Years experience</div>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-yellow-800 border transition-all">

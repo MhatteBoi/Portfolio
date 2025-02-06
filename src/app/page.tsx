@@ -3,6 +3,7 @@ import { Hero } from './Components/hero'
 import { Projects } from './Components/projects'
 import  AboutMe  from './Components/about-me'
 import { Footer } from './Components/footer'
+import  VideoComparisonSlider  from './Components/videoComparisonSlider'
 import Image from 'next/image'
 
 
@@ -24,6 +25,11 @@ export default function Home() {
     />
         <Projects />
         
+        <VideoComparisonSlider 
+          leftVideoSrc="https://res.cloudinary.com/dm3vmtten/video/upload/v1738674468/backend_aky0c6.mp4"
+          rightVideoSrc="https://res.cloudinary.com/dm3vmtten/video/upload/v1738676633/frontend_tjsaxu.mp4"
+        />
+        <p className='text-center pt-2'>Check It out on <a href='https://github.com/MhatteBoi/runTimeTester' className='bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text '>Github.</a></p>
         <AboutMe />
         </div>
         <Footer />
