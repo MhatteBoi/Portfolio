@@ -89,7 +89,7 @@ const techStack = [
 
 export function FloatingTechStack() {
   return (
-    <div className="w-full hidden sm:block py-12">
+    <div className="w-full  py-12">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-2xl font-semibold text-center mb-8 text-gray-200">
           Technologies & Tools
