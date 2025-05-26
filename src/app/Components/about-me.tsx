@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 import { motion, useInView } from "framer-motion"
-import { Terminal, Code2, Rocket, Coffee, Heart } from 'lucide-react'
+import { Terminal, Code2, Rocket, Coffee, Heart, BrainCircuit } from 'lucide-react'
 
 export default function AboutMe() {
   // Create refs for each animated section
@@ -11,8 +11,12 @@ export default function AboutMe() {
   const rightColumnRef = useRef(null)
   const statsRef = useRef(null)
   const footerRef = useRef(null)
+  const fullWidthCardRef = useRef(null);
+  
+
 
   // Check if sections are in view
+  const fullWidthCardInView = useInView(fullWidthCardRef, { once: true, margin: "-100px" })
   const headerInView = useInView(headerRef, { once: true, margin: "-100px" })
   const leftColumnInView = useInView(leftColumnRef, { once: true, margin: "-100px" })
   const rightColumnInView = useInView(rightColumnRef, { once: true, margin: "-100px" })
@@ -58,7 +62,7 @@ export default function AboutMe() {
               <Terminal className="w-8 h-8 text-purple-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Tech enthusiast</h3>
               <p className="text-gray-400">
-              Skilled in React, Next.js, .NET, Angular, SQL, Firebase and Blazor. Currently learning Svelte, MongoDB, Docker, and more.
+              Skilled in React, Next.js, .NET, Angular, SQL, Firebase and Blazor. Currently learning SvelteKit, Supabase, PostgreSQL, and more.
               </p>
             </div>
 
@@ -96,7 +100,28 @@ export default function AboutMe() {
                 Experienced in collaborative development, version control, agile methodologies, coffee enthusiast, preferably espresso.
               </p>
             </div>
+
           </motion.div>
+        
+          {/* Full Width Card */}
+          <motion.div 
+            ref={fullWidthCardRef}
+            style={{
+              transform: fullWidthCardInView ? "none" : "translateY(50px)",
+              opacity: fullWidthCardInView ? 1 : 0,
+              transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s"
+            }}
+            className="md:col-span-2 "
+          >
+            <div className='text-center bg-gray-900/50 backdrop-blur-sm p-6 rounded-xl border border-gray-800 hover:border-purple-500/60 hover:shadow-[0px_0px_34px_0px_rgba(236,0,240,0.8)] duration-200 transition-all'>
+              <BrainCircuit  className="w-8 h-8 mx-auto text-purple-400 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Beyond code</h3>
+              <p className="text-gray-400 max-w-prose sm:max-w-lg md:max-w-2xl mx-auto">
+                  I love building digital solutions — but to stay focused and creative, I believe in variation. Outside the world of code, I enjoy hiking/camping, photography, and spending time with friends and family. Play Baldur’s Gate 3 and Magic: The Gathering with my wife, and I like to wind down with cosmic horror or nonfiction books on philosophy, personal development, and human history.
+              </p>
+            </div>
+          </motion.div>
+            
         </div>
 
         {/* Bottom Section - Stats */}
@@ -114,11 +139,11 @@ export default function AboutMe() {
             <div className="text-gray-400 ">Years experience</div>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-yellow-800 border transition-all">
-            <div className="text-3xl font-bold text-purple-400">25+</div>
+            <div className="text-3xl font-bold text-purple-400">30+</div>
             <div className="text-gray-400">Projects</div>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-red-800 border transition-all">
-            <div className="text-3xl font-bold text-purple-400">10+</div>
+            <div className="text-3xl font-bold text-purple-400">15+</div>
             <div className="text-gray-400">Technologies</div>
           </div>
           <div className="bg-gray-900/30 p-6 rounded-lg hover:border-blue-800 border transition-all">
@@ -138,7 +163,7 @@ export default function AboutMe() {
           className="text-center mt-16"
         >
           <p className="text-gray-400 flex items-center justify-center gap-2">
-            Made with <Heart className="w-4 h-4 text-pink-500" /> and lots of coffee (espresso) 
+            Made with <Heart className="w-4 h-4 text-pink-500" /> and lots of coffee 
           </p>
         </motion.div>
       </div>

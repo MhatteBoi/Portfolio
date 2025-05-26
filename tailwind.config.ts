@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
 
 export default {
     darkMode: ["class"],
@@ -9,6 +10,15 @@ export default {
   ],
   theme: {
   	extend: {
+		animation: {
+			"loop-scroll": "loop-scroll 35s linear infinite",
+		},
+		keyframes: {
+			"loop-scroll": {
+				"0%": { transform: "translateX(0)" },
+				"100%": { transform: "translateX(-100%)" },
+			},
+		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -58,5 +68,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+   plugins: [animate],
 } satisfies Config;
