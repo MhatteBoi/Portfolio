@@ -91,14 +91,14 @@ export function ProjectModal({ title, process, learned, improvements, images }: 
         <div className="space-y-6">
           {process && (
             <div className="bg-gray-700/30 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2 text-purple-400">Thought Process</h3>
+              <h3 className="text-lg font-semibold mb-2 text-purple-400">Thought process</h3>
               <p className="text-gray-300">{process}</p>
             </div>
           )}
           
           {learned && (
             <div className="bg-gray-700/30 p-4 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2 text-teal-400">What I Learned</h3>
+              <h3 className="text-lg font-semibold mb-2 text-teal-400">What I learned</h3>
               <p className="text-gray-300">{learned}</p>
             </div>
           )}

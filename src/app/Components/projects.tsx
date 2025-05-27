@@ -65,7 +65,7 @@ const projects = [
       // Add more project screenshots here
     ],
     process:
-      "When jumping in to an already started project i knew i had to get up to speed quickly. I started by reviewing the existing codebase, understanding the architecture, and identifying areas where I could contribute effectively. I focused on learning how Firebase Cloud Functions were integrated and how the team worked together to make the development smooth.",
+      "When jumping in to an already started project I knew I had to get up to speed quickly. I started by reviewing the existing codebase, understanding the architecture, and identifying areas where I could contribute effectively. I focused on learning how Firebase Cloud Functions were integrated and how the team worked together to make the development smooth.",
     learned:
       "Working with Firebase Cloud Functions, was a significant learning experience. I gained expertise in real-time data synchronization and learned how to optimize cloud function performance. One big part of this internship, was to understand how important open and continious communication is within a team, especially when working on a live project.",
     Features:
@@ -93,7 +93,7 @@ const projects = [
   {
     title: "Divine Healing by Rose - (work in progress)",
     description:
-      "This is my first client job, where I made a site/app for my sister where she can sell healing services.",
+      "This is my first client job, where I made a site/app for a client where she can sell healing services.",
     image:
       "https://res.cloudinary.com/dm3vmtten/image/upload/v1748175372/logo-Photoroom_1_uh1ob7.png",
     technologies: ["SvelteKit", "Supabase", "Tailwind", "TypeScript", "Postgres"],
@@ -103,7 +103,7 @@ const projects = [
      
     ],
     process:
-      "This project started as a personal endeavor to help my sister establish her online presence. I began by discussing her needs and preferences, which led to the decision to use SvelteKit for its simplicity and performance. I focused on creating a clean, user-friendly interface that would allow her to showcase her services effectively.",
+      "This project started as a personal endeavor to help my client establish her online presence. I began by discussing her needs and preferences, which led to the decision to use SvelteKit for its simplicity and performance. I focused on creating a clean, user-friendly interface that would allow her to showcase her services effectively.",
     learned:
       "This project taught me how to work with clients and understand their needs. I loved setting upp a project board where she could be a part of it with inspiration and ideas, to keep us both updated. This is just the start so there is a lot more to learn as we continue to develop the site.",
     Features:
@@ -123,7 +123,7 @@ const projects = [
   {
     title: "First portfolio",
     description:
-      "My first portfolio i made in TUC School, made in HTML/CSS/JS. Where other projects are shown as well. It's in Swedish due to school being in Sweden ",
+      "My first portfolio I made in TUC School, made in HTML/CSS/JS. Where other projects are shown as well. It's in Swedish due to school being in Sweden ",
     image:
       "https://res.cloudinary.com/dm3vmtten/image/upload/v1737212811/PortFirst_ulscdh.png",
     technologies: ["HTML", "CSS", "JavaScript", "Click the image to see it"],
@@ -132,7 +132,7 @@ const projects = [
     {
     title: "Passion project",
     description:
-      "This is a passion project im making, i wont tell too much about it yet, but it will be a app that helps you with your daily life and maybe inspire others to make a difference.",
+      "This is a passion project im making, I wont tell too much about it yet, but it will be a app that helps you with your daily life and maybe inspire others to make a difference.",
     image:
       "https://res.cloudinary.com/dm3vmtten/image/upload/v1748191974/Logo-Photoroomsymbol_big_mc74an.png",
     technologies: ["Supabase", "SvelteKit", "Tailwind", "Postgres"],
