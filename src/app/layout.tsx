@@ -6,8 +6,12 @@ import   App   from './Components/ParticleBg'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Cosmic Portfolio',
-  description: 'Full Stack Developer Portfolio',
+  title: 'Roswall - Portfolio',
+  keywords: ['Portfolio', 'Mhattias Roswall', 'Web Developer', 'Full stack', 'Software Engineer'],
+  description: 'Mhattias Roswall - Portfolio',
+  authors: [{ name: 'Mhattias Roswall'}],
+  creator: 'Mhattias Roswall',
+
 }
 
 export default function RootLayout({
