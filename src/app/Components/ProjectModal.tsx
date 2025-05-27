@@ -53,6 +53,7 @@ export function ProjectModal({ title, process, learned, improvements, images }: 
               src={images[currentImageIndex]}
               alt={`${title} screenshot ${currentImageIndex + 1}`}
               fill
+              loading="lazy"
               className="object-contain"
             />
             {images.length > 1 && (
